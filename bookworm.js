@@ -1,19 +1,10 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
-    return "Welcome to bookworm.";
-  };
 
-  Template.hello.events({
-    'click input' : function () {
-      // template data, if any, is available in 'this'
-      if (typeof console !== 'undefined')
-        console.log("You pressed the button");
-    }
-  });
-}
-
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
+  Template.leaders.people = [
+    { fullName: "John Doe", totalCredits: "25" },
+    { fullName: "Jane Smith", totalCredits: "20" },
+    { fullName: "Sophie Turner", totalCredits: "15" },
+    { fullName: "Jack Lewis", totalCredits: "10" },
+    { fullName: "Smedley Smedlerson", totalCredits: "5" }
+  ];
 }
