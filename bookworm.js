@@ -1,10 +1,10 @@
 if (Meteor.isClient) {
 
   Template.leaders.people = [
-    { fullName: "John Doe", totalCredits: "25" },
-    { fullName: "Jane Smith", totalCredits: "20" },
-    { fullName: "Sophie Turner", totalCredits: "15" },
-    { fullName: "Jack Lewis", totalCredits: "10" },
-    { fullName: "Smedley Smedlerson", totalCredits: "5" }
+    { fullName: "Eric Broulette", totalCredits: "9", },
+    { fullName: "Sara Breen", totalCredits: "8" },
+    { fullName: "Todd Prauner", totalCredits: "8" },
+    { fullName: "Hannah Newberry", totalCredits: "7" },
+    { fullName: "Erik Pulverenti", totalCredits: "6" }
   ];
 }

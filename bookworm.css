@@ -1,28 +1,26 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 200;
+    font-size: medium;
     color: white;
     margin: 50px 0;
     padding: 0;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
     background: #f87620;
 }
 
-.leaderTitle {
-	font-family: 'Helvetica Neue'
-	font-weight: 200;
-	color: white;
-	text-align: center;
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
-.leaderList {
-	font-family: 'Helvetica Neue'
-	font-weight: 200;
-	color: white;
-	padding-left: 10;
-	margin-left: 50px 0;
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
 }
+
