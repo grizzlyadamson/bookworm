@@ -3,19 +3,20 @@
 </head>
 
 <body>
-	<h1 class="leaderTitle"> Hudl University Leaderboard </h1>
+	<h1 class="leaderTitle"> Hudl U Leader Board </h1>
 	{{> leaders}}
 </body>
 
 <template name="leaders">
 	<h2 class="leaderList"></h2>
 		<p>
-			{{#each people}}
+				{{#each people}}
 				{{> hudlie}}
 			{{/each}}
 		</p>
 </template>
 
 <template name="hudlie">
-	<h2> {{ fullName }} {{totalCredits}} </h2>
+	<h2> {{picLocation}} {{ fullName }} {{totalCredits}} </h2>
 </template>
+
